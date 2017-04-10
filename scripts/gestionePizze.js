@@ -51,7 +51,7 @@ elenco_pizze = [
 
 function stampa_elenco_pizze()
 {
-    for (variable of elenco_pizze) {
+    for (var variable of elenco_pizze) {
         aggiungi_elemento_pizza(variable["nome_pizza"],variable["nome_pizzeria"],variable["img_alt"],variable["img_url"]);
     }
     return true ;
